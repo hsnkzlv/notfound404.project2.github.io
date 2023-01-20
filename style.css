@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    background-color: black;
+}
+body{
+    
+    color: whitesmoke;
+    font-family: 'Barlow', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div h1{
+    font-size: 96px;
+    text-align: center;
+    margin-top: 10%;
+    cursor: pointer;
+}
+div h1:hover{
+    transform: scale(0.8);
+}
+
+div h2{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 2%;
+    cursor: pointer;
+}
+div h2:hover{
+    transform: scale(0.9);
+}
+
+div p{
+    margin-top: 21.2%;
+    text-align: right;
+    cursor: pointer;
+}
+
+div p:hover{
+    transform: scale(1.1);
+    
+}
+div p a{
+    background-color: white;
+}
